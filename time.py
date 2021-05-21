@@ -1,0 +1,13 @@
+#import data time module and display current data...
+import datetime
+x = datetime.datetime.now()
+print(x)
+#written the year and name of weekday...
+print(x.year)
+print(x.strftime("%A"))
+
+#create a date object...
+x=datetime.datetime(2020,4,23)
+print(x)
+#to display the name of month 4...
+print(x.strftime("%B"))

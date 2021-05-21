@@ -1,0 +1,3 @@
+#lambda sum of agruments and return result...
+x=lambda a,b,c: a+b+c
+print(x(5,6,4))
